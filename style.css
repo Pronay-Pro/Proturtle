@@ -1,0 +1,71 @@
+/* navber */
+header{
+ background-color: blanchedalmond;
+}
+#proturtle{
+    font-size: 40px;
+    font-family: 'Luckiest Guy', cursive;
+    color: black;
+}
+span{
+    color: crimson;
+    font-size: 40px;
+    font-family: 'Luckiest Guy', cursive;
+}
+#link{
+    font-size: 20px;
+    color:black;
+    font-family: 'Lobster', cursive;
+    margin: 0px 10px;
+    
+}
+#link:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+/* navber */
+
+/* carsolus */
+.slider{
+    background-color: #5B04DE;
+}
+
+
+
+/* carsouls */
+
+/* programming */
+#programming{
+    border-radius:10px;
+    margin: 25px;
+    background: lightgrey;
+    box-shadow: 5px 5px 10px black;
+}
+#btn{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #FF4992;
+    font-weight: 600;
+}
+#btn:hover{
+    color: black;
+    background-color: white;
+}
+
+/* marketing */
+#Marketing{
+    border-radius:10px;
+    margin: 25px;
+    background: lightslategrey;
+    box-shadow: 5px 5px 10px black;
+}
+h5{
+    padding: 5px 0px;
+}
+/* Others */
+#Others{
+    border-radius:10px;
+    margin: 25px;
+    background: grey;
+    box-shadow: 5px 5px 10px black;
+}

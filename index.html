@@ -1,11 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Proturtle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
+
 <body>
-    
+    <!-- navbar style -->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="proturtle" href="#">Pro<span>Turtle</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-dark"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="link" href="#">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="link" href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar style -->
+
+    <!-- course section -->
+    <main class="container mt-5">
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide slider" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-7 p-5 text-white">
+                                <h1 class="">Complete Web Development Course with Jhankar Mahbub</h1>
+                                <p class="">একদম জিরো থেকে, কোন প্রকার পূর্ব অভিজ্ঞতা ছাড়াই একজন প্রফেশনাল ওয়েব ডেভেলপার
+                                    হওয়ার জন্য যা যা লাগবে তার সবকিছুই সহজ করে গিলিয়ে খাওয়ানো হবে এই কোর্সে।</p>
+                                <button class="btn btn-dark" id="btn">Enroll Now</button>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-5">
+                                <img src="img/p1.png" class="d-block w-100 p-5" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-7 p-5 text-white">
+                                <h1 class="">We will ensure our graduates are world-class web developer.</h1>
+                                <p class="">প্রত্যেক ভিডিও শেষে প্রশ্ন থাকবে। মডিউল শেষে ফাইনাল কুইজ থাকবে। টেক এওয়ে
+                                    এসাইনমেন্ট থাকবে। হোমওয়ার্ক প্রফেশনাল লেভেলের না হলে, ফিডব্যাক দেয়া হবে।</p>
+                                <button class="btn btn-dark" id="btn">Enroll Now</button>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-5">
+                                <img src="img/p2.png" class="d-block w-100 p-5" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-7 p-5 text-white">
+                                <h1 class="">Master everything you need to become a web developer.</h1>
+                                <p class="">ফ্রন্টএন্ড (HTML, CSS, JavaScript, ES6, bootstrap, React, charting),
+                                    ব্যাকএন্ড
+                                    (node, express, API), ডাটাবেজ (mongodb), ক্রোম ডেভ টুল, হোস্টিং, গিটহাব, ইন্টারভিউ
+                                    প্রবলেম সলভিং - সবকিছু!</p>
+                                <button class="btn btn-dark" id="btn">Enroll Now</button>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-5">
+                                <img src="img/p3.png" class="d-block w-100 p-5" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section>
+        <section class="mt-5">
+            <h1 class="p-5 text-center">Programming</h1>
+            <div class="card-group">
+                
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="programming">
+                        <img src="img/android.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Android App Develelopment</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quasi sit
+                                eligendi nobis id sequi accusamus! Explicabo libero consectetur porro!</p>
+                            <h2>100$</h2>
+                            <button class="btn btn-dark" id="btn">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="card " id="programming">
+                    <img src="img/big data.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Big Data</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quasi sit
+                            eligendi nobis id sequi accusamus! Explicabo libero consectetur porro!</p>
+                        <h2>700$</h2>
+                        <button class="btn btn-dark" id="btn">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="card" id="programming">
+                    <img src="img/data science.jpg" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title">Data Science</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quasi sit
+                            eligendi nobis id sequi accusamus! Explicabo libero consectetur porro!</p>
+                        <h2>120$</h2>
+                        <button class="btn btn-dark" id="btn">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h1 class="p-5 text-center">Social Marketing</h1>
+            <div class="card-group">
+                
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="Marketing">
+                        <img src="img/graphic.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Graphics Design</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quasi sit
+                                eligendi nobis id sequi accusamus! Explicabo libero consectetur porro!</p>
+                            <h2>100$</h2>
+                            <button class="btn btn-dark" id="btn">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="card " id="Marketing">
+                    <img src="img/facebook.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Facebook Marketing</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quasi sit
+                            eligendi nobis id sequi accusamus! Explicabo libero consectetur porro!</p>
+                        <h2>700$</h2>
+                        <button class="btn btn-dark" id="btn">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="card" id="Marketing">
+                    <img src="img/E-commers.jpg" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title">Python Programing</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quasi sit
+                            eligendi nobis id sequi accusamus! Explicabo libero consectetur porro!</p>
+                        <h2>120$</h2>
+                        <button class="btn btn-dark" id="btn">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h1 class="p-5 text-center">Others</h1>
+            <div class="card-group">
+                
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="Others">
+                        <img src="img/hacking.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ethikal Hacking</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quasi sit
+                                eligendi nobis id sequi accusamus! Explicabo libero consectetur porro!</p>
+                            <h2>100$</h2>
+                            <button class="btn btn-dark" id="btn">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="card " id="Others">
+                    <img src="img/js.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Java Script</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quasi sit
+                            eligendi nobis id sequi accusamus! Explicabo libero consectetur porro!</p>
+                        <h2>700$</h2>
+                        <button class="btn btn-dark" id="btn">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="card" id="Others">
+                    <img src="img/Digital marketing.jpg" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title">SEO Marketing</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quasi sit
+                            eligendi nobis id sequi accusamus! Explicabo libero consectetur porro!</p>
+                        <h2>120$</h2>
+                        <button class="btn btn-dark" id="btn">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
